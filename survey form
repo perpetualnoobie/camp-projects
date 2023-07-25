@@ -1,0 +1,116 @@
+<!DOCtype html>
+<html lang="eng"></html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  <head/>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description"> Please provide your information</p>
+  <form id="survey-form">
+  <fieldset>
+    <label for="suffix">Mr./Mrs./Miss.: <input id="name" type="text" placeholder="enter suffix" required></label>
+    <label for="name" id="name-label">Enter Name <input id="name" type="text" placeholder="enter your full name" required></label> 
+    <label for="email" id="email-label">email:<input          id="email" type="email" placeholder="enter valid email" required></label>
+    <label for="number" id="number-label">Age:<input id="number" type="number" min="18" max="100" placeholder="age" required></label>
+    </fieldset>
+    <fieldset>
+      <label for="dropdown">
+          <select name="dropdown" id="dropdown"placeholder="choose one" class="inline">
+          <option value="noobie">Noob</option>
+          <option value="novis">Novice</option>
+          <option value="Pro"  >Pro </option>
+          <option value="Pro"  > Pinball Wizard </option></select>
+      <label for="Male"><input id="Male" type="radio" value="male" name="gender" class="inline"/>Male</label>
+      <label for="Female"><input id="Female" type="radio" value="female" name="gender" class="inline"/>Female</label>
+      <label for="checkboxes"> choose one:
+<input id="idk" type="checkbox" name="choose" value="yes" class="inline">Yes</label>
+<input id="idk" type="checkbox" name="choose" value="no" class="inline">No</label>
+    </fieldset>
+    <fieldset>
+<label for="comments"> please enter comments:
+<textarea id="comments" name="comments" placeholder="tell us your thoughts">
+</textarea>
+    </fieldset>
+<input type="submit" id="submit" class="Submit">
+</form>
+</body>
+</html>
+
+
+
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height:100vh;
+  background-color:rebeccapurple;
+  color: white;
+  font-family: cursive;
+  font-size: 14px;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  min-width: 300px;
+  max-width: 500px;
+  margin: 0 auto;  
+  padding: 2em;
+}
+
+fieldset{
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f
+}
+
+fieldset:last-of-type{
+  border-bottom: none;
+}
+label{
+ display: block
+  margin: 0.5rem 0; 
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 1em;
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+.inline{
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+** end of undefined **
+
