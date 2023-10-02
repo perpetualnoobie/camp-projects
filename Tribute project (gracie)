@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="tribute page" />
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1> Gracie Brazilian Ju Jitsu</h1>
+ </header>
+ <main id="main"> 
+   <title id="title"> Tribute Page</title>
+   <div class="pic"id="img-div"><img id="image" src="https://www.jiujitsubrotherhood.com/cdn/shop/articles/The_Gracies_1296x.png?v=1579526849">
+   <figcaption id="img-caption">Gracie Generations</figcaption></div>
+<div id="tribute-info">
+<h2>What is Brazilian Ju-Jitsu(BJJ)?</h2> 
+<p>The gracie family took Japanese Judo and Ju-Jitsu and combined them to create a fighting system focused on the ground, using leverage and techique to nullify size and strength advantages.</p>
+<h3> BJJ for the World</h3>
+<p> The Gracies decided to show case their art to the world by staging "the ultimate fighter" in 1992. They choose royce, the smallest Gracie, to make a point. Royce won and the world went crazy for BJJ. 
+<p> for more see <a target="_blank" id="tribute-link" href="https://en.wikipedia.org/wiki/Gracie_family">the Gracie Wiki</a></p>
